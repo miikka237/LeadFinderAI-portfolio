@@ -1,0 +1,77 @@
+{
+  "_note": "SYNTHETIC DEMO DATA. All company names, domains and Business IDs are fictional. Domains use the reserved .invalid TLD. Business IDs use the unallocated 99000xx range and are checksum-valid only so the validation logic can be demonstrated.",
+
+  "categories": [
+    "outdoor equipment",
+    "home decor",
+    "office furniture",
+    "garden supplies"
+  ],
+
+  "search_results": {
+    "outdoor equipment verkkokauppa": [
+      "https://www.demo-outdoor.invalid/tents?ref=search",
+      "http://demo-outdoor.invalid/",
+      "https://www.facebook.com/demo-outdoor-page",
+      "https://blog.trailguide.invalid/best-tents-2024"
+    ],
+    "home decor verkkokauppa": [
+      "https://northstarshop.invalid/",
+      "https://example-commerce.invalid/catalogue",
+      "https://en.wikipedia.org/wiki/Interior_design"
+    ],
+    "office furniture verkkokauppa": [
+      "https://sample-furniture.invalid/",
+      "https://www.brightdesk.invalid/chairs"
+    ],
+    "garden supplies verkkokauppa": [
+      "https://pilot-garden.invalid/",
+      "https://greenleaf-store.invalid/",
+      "https://mossy-market.invalid/",
+      "https://kettle-and-co.invalid/"
+    ]
+  },
+
+  "ai_responses": {
+    "demo-outdoor.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: YES\nB2C_PURCHASE_AVAILABLE: YES\nPURCHASE_MODEL: real_time_purchase\nBUSINESS_TYPE: independent_b2c\nCANONICAL_DOMAIN: demo-outdoor.invalid\nCOMPANY_NAME: Demo Outdoor Oy\nBUSINESS_ID: 9900002-6\nDESCRIPTION: Online store for tents and hiking gear.",
+
+    "northstarshop.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: YES\nB2C_PURCHASE_AVAILABLE: YES\nPURCHASE_MODEL: real_time_purchase\nBUSINESS_TYPE: independent_b2c\nCANONICAL_DOMAIN: northstarshop.invalid\nCOMPANY_NAME: Northstar Shop Oy\nBUSINESS_ID: 9900001-8\nDESCRIPTION: Online store for home decor and textiles.",
+
+    "example-commerce.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: YES\nB2C_PURCHASE_AVAILABLE: NO\nPURCHASE_MODEL: real_time_purchase\nBUSINESS_TYPE: b2b_only\nCANONICAL_DOMAIN: example-commerce.invalid\nCOMPANY_NAME: Example Commerce Oy\nBUSINESS_ID: 9900003-4\nDESCRIPTION: Wholesale portal that requires a business account.",
+
+    "sample-furniture.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: NO\nB2C_PURCHASE_AVAILABLE: UNKNOWN\nPURCHASE_MODEL: quote_only\nBUSINESS_TYPE: independent_b2c\nCANONICAL_DOMAIN: sample-furniture.invalid\nCOMPANY_NAME: Sample Furniture Oy\nBUSINESS_ID: 9900006-9\nDESCRIPTION: Furniture showroom that only accepts quote requests.",
+
+    "brightdesk.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: YES\nB2C_PURCHASE_AVAILABLE: YES\nPURCHASE_MODEL: real_time_purchase\nBUSINESS_TYPE: independent_b2c\nCANONICAL_DOMAIN: brightdesk.invalid\nCOMPANY_NAME: Brightdesk Oy\nBUSINESS_ID: 9900004-2\nDESCRIPTION: Online store for office chairs.",
+
+    "pilot-garden.invalid": "AI_STATUS: AMBIGUOUS\nIS_REAL_WEBSHOP: UNKNOWN\nB2C_PURCHASE_AVAILABLE: UNKNOWN\nPURCHASE_MODEL: unknown\nBUSINESS_TYPE: unknown\nCANONICAL_DOMAIN: NONE\nCOMPANY_NAME: UNKNOWN\nBUSINESS_ID: UNKNOWN\nDESCRIPTION: Site seems to be under construction.",
+
+    "greenleaf-store.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: YES\nB2C_PURCHASE_AVAILABLE: YES\nPURCHASE_MODEL: real_time_purchase\nBUSINESS_TYPE: independent_b2c\nCANONICAL_DOMAIN: greenleaf-store.invalid\nCOMPANY_NAME: Greenleaf Store Oy\nBUSINESS_ID: 9900007-7\nDESCRIPTION: Online store for seeds and garden tools.",
+
+    "mossy-market.invalid": "Sure! Here is what I found about this website: it looks like a nice garden shop.",
+
+    "kettle-and-co.invalid": "AI_STATUS: OK\nIS_REAL_WEBSHOP: YES\nB2C_PURCHASE_AVAILABLE: YES\nPURCHASE_MODEL: real_time_purchase\nBUSINESS_TYPE: independent_b2c\nCANONICAL_DOMAIN: kettle-and-co.invalid\nCOMPANY_NAME: Kettle and Co Oy\nBUSINESS_ID: 9900001-1\nDESCRIPTION: Online store for kitchenware."
+  },
+
+  "ai_transient_failures": {
+    "northstarshop.invalid": 1
+  },
+
+  "site_pages": {
+    "demo-outdoor.invalid": "Demo Outdoor Oy | Y-tunnus 9900002-6 | Tilaa verkosta, toimitus 1-3 arkipaivassa.",
+    "northstarshop.invalid": "Northstar Shop Oy - Toimitusehdot. Y-tunnus: 9900001-8.",
+    "example-commerce.invalid": "Example Commerce Oy - Kirjaudu yritysasiakkaana. Y-tunnus 9900003-4.",
+    "sample-furniture.invalid": "Sample Furniture Oy - Pyyda tarjous.",
+    "brightdesk.invalid": "Verkkokauppaa yllapitaa Other Retail Oy, Y-tunnus 9900005-0.",
+    "greenleaf-store.invalid": "Greenleaf - siemenet ja puutarhatyokalut. Ota yhteytta!",
+    "kettle-and-co.invalid": "Kettle and Co - keittiotarvikkeet verkosta."
+  },
+
+  "registry": {
+    "9900001-8": "Northstar Shop Oy",
+    "9900002-6": "Demo Outdoor Oy",
+    "9900003-4": "Example Commerce Oy",
+    "9900004-2": "Brightdesk Oy",
+    "9900005-0": "Other Retail Oy",
+    "9900006-9": "Sample Furniture Oy"
+  }
+}

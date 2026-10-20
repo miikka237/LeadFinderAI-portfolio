@@ -1,0 +1,9 @@
+[project]
+name = "leadfinder-portfolio"
+version = "1.0.0"
+description = "Sanitized portfolio version of a Python/LLM lead discovery and validation pipeline"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

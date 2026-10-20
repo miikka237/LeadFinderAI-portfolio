@@ -1,0 +1,40 @@
+# --- Secrets / credentials ---
+.env
+.env.*
+*.pem
+*.key
+secrets*
+credentials*
+
+# --- Databases ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Runtime output ---
+logs/
+output/
+*.log
+
+# --- Data exports (only the synthetic examples are allowed) ---
+*.xlsx
+*.csv
+*.json
+!examples/synthetic_candidates.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# --- Tools / editors ---
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
